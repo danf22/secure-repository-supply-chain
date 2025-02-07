@@ -33,6 +33,10 @@ Let's see how this works!
        directory: "/code/"
        schedule:
          interval: "weekly"
+     - package-ecosystem: "terraform"
+       directory: "/tf/"
+       schedule:
+         interval: "weekly"
     ```
 1. Commit your changes directly to the `main` branch.
 
